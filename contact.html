@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title> Contact US</title>
+    <link rel="stylesheet" type="text/css" href="style_C2.css">
+    <link rel="stylesheet" href="style_C1.css">
+    <script src="https://kit.fontawesome.com/e731861a49.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show')
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+    <header> 
+    <nav>
+        <label class="logo">
+        <a href="index.html"><h2>GAMAX</h2></a>
+        </label>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="games.html">GAMES</a></li>
+            <li><a href="tournments.html">TOURNMENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">SIGN-IN</a></li>
+        </ul>  
+        <label id="icon"><i class="fas fa-bars"></i></label> 
+    </nav></header>   
+</div>
+<div class="body">
+    <section class="contact">
+        
+        <div class="contactForm">
+            <form>
+                <div class="content">
+                    <h2> CONTACT US</h2><br>
+                    <h3>Send a Message</h3>
+                </div>
+                <br>
+                <p> We would love to hear from you.<br><br> If you want to get further detais or if you have any problems send us a Message</p><br>
+                <div class="inputbox">
+                    <label for="fname">Full Name</label><br>
+                    <input type="text" id="fname" name="" required="required" placeholder="Name in Full">
+                    
+                </div>
+                <div class="inputbox">
+                    <label for="cno">Contact No</label><br>
+                    <input type="text" id="cno" name="" required="required" placeholder="xxx-xxxxxxx">
+                    
+                </div>
+                <div class="inputbox">
+                    <label for="Email">Email</label><br>
+                    <input type="text" id="Email"  name="" required="required" placeholder="xxx@gmail.com">
+                </div>
+                <div class="inputbox">
+                    <label for="message">Type Your Message......</label><br>
+                    <textarea required="required"></textarea>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" name="" value="Send" >
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h3>LINKS</h3><br>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="tournments.html">TOURNMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>CONTACT US</h3><br>
+                <form class="small">
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <h3>GET-IN-TOUCH</h3><br>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

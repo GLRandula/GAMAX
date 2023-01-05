@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 250px;
+    background: url("./Images/K_background2.jpg");
+    background-size: 1500px;
+    font-family: 'lucida sans' , sans-serif;
+}
+
+.contact .content
+{
+    max-width: 500px;
+
+}
+
+.contactForm
+{
+    max-width: 500px;
+    padding: 20px;
+    padding-bottom: 20px;
+    color: rgb(250, 251, 251);
+    background-color: rgb(10, 0, 78);
+}
+.contactForm h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    text-align: center;
+}
+.content h3{
+    font-size: 20px;
+    color: chartreuse;
+    font-weight: 500px;
+}
+
+.contactForm p
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(238, 242, 243);
+
+}
+.contactForm .inputbox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.contactForm .inputbox input,
+.contactForm .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(216, 216, 100);
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: #087b8fd1;
+    color: rgb(247, 247, 247);
+    border: 1px solid #eee;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(7, 108, 120);
+    text-shadow: none;
+    padding: 10px;
+    font-size: 18px;   
+}

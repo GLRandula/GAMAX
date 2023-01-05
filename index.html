@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>Home</title>
+    <link rel="stylesheet" href="style_I.css">
+    <script src="https://kit.fontawesome.com/e731861a49.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <label class="logo">
+                    <a href="index.html">
+                        <h2>GAMAX</h2>
+                    </a>
+                </label>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="tournments.html">TOURNMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="login.html">SIGN-IN</a></li>
+                </ul>
+                <label id="icon"><i class="fas fa-bars"></i></label>
+            </nav>
+        </header>
+    </div>
+<div class="body"><br>
+    <h1 class="head">GAMERS, ARE YOU READY?</h1><br>
+<div class="w3-content-w3-section" style="max-width:1350px">
+  <img class="mySlides" src="./Images/battlefield_3.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/1752211.png" style="width:100%">
+  <img class="mySlides" src="./Images/1814450.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/sdwHuf.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/wp9545833.png" style="width:100%">
+  <img class="mySlides" src="./Images/STALKER-2.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script><br>
+        <span style="text-align: center;">
+            <h1 class="events">AVAILABLE EVENTS</h1>
+            <div class="row-m">
+                <div class="col-m">
+                    <div class="card1">
+                        <h1 class="head">VIDEO GAMES</h1><br>
+                        <img src="./Images/thecrewcarswallpaper1920 (1).jpg" width="360px" height="240px">
+                        <h3>A game is an opportunity<br> 
+                            to focus our energy, with<br>  
+                            relentless optimism, at<br> 
+                            something we're good at<br>  
+                            and enjoy.</h3><br>
+                        <h2><a href="games.html">SEE MORE</a></h2>
+                    </div>
+                </div>
+                <div class="col-m">
+                    <div class="card2">
+                        <h1 class="head">TOURNMENTS</h1><br>
+                        <img src="./Images/medal_of_honor.jpg" width="360px" height="240px">
+                        <h3>A Tournament is an <br>
+                            instance 
+                            of competition<br> that is
+                            played until all but<br>one
+                            participating Team is <br> 
+                            eliminated or disqualified.</h3><br>
+                        <h2><a href="tournments.html">SEE MORE</a></h2>
+                    </div>
+                </div>
+            </div>
+        </span>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h3>LINKS</h3><br>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="tournments.html">TOURNMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>CONTACT US</h3><br>
+                <form>
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <h3>GET-IN-TOUCH</h3><br>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
