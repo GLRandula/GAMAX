@@ -123,8 +123,7 @@ div.image :hover{
 .column{
     background: url("./Images/edit_pic.png");
     background-repeat: no-repeat;
-    background-size: 1550px;
-    background-position-y: center;
+    background-size: cover;
 }
 
 .summary{
