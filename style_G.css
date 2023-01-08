@@ -146,7 +146,7 @@ div.image :hover{
     background:url("./Images/battlefield_6-wallpaper-1920x1200.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 2100px;
+    background-size: cover;
     padding-bottom: 200px;   
 }
 
