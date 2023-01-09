@@ -2,6 +2,8 @@
 
 A Gaming Web Site                           
 
+Project Link : https://glrandula.github.io/Gamax/
+
 Group Members:                                                                
 01.K.V. Abhayasundara      - CS/2020/048 - Home Page                                           
 02.Subhash Ekanayake       - CS/2020/009 - Log in Page                                          
